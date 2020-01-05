@@ -1,0 +1,27 @@
+# Files ------------------------------------------------------------------------
+^\.gitattributes$
+^\.Rprofile$
+^.*\.Rproj$
+^\.Rproj\.user$
+^tic\.R$
+^codecov\.yml$
+^\.travis\.yml$
+^README\.Rmd$
+^LICENSE\.md$
+.*\.ini$
+.*\.md$
+.*\.png$
+
+# Folders ----------------------------------------------------------------------
+^\.app/*
+^temp/*
+^data-raw/*
+^public/*
+^inst/data$
+^inst/docs$
+.*_cache/*
+
+# pkgdown ----------------------------------------------------------------------
+^vignettes/*
+^docs/*
+^inst/\.gitkeep$
