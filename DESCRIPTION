@@ -1,24 +1,19 @@
-Package: template.package
+Package: tidy.preparation
 Type: Package
-Title: Boilerplate for 'tidylab' Packages
-URL: https://tidylab.github.io/template.package/
-BugReports: https://github.com/tidylab/template.package/issues
+Title: Implement a Data Pipeline that Ingests, Prepares, Stores and Crafts Features
+URL: https://tidylab.github.io/tidy.preparation/
+BugReports: https://github.com/tidylab/tidy.preparation/issues
 Version: 1.20.01
 Date: 2020-01-01
 Authors@R: c(
             person("Harel", "Lustiger", email = "tidylab@gmail.com", role = c("aut", "cre"))
             )
 Maintainer: Harel Lustiger <tidylab@gmail.com>
-Description: Any R package may include functions, tests, documentation and data. 
-    While the content between packages is different, package development tools 
-    and processes are often similar. `template.package` aims at:  
-    * Letting the R programmer focus on what’s important – developing the package content;  
-    * Speeding-up development time by reducing rework time spent on development tools setup; and  
-    * Laying the infrastructure needed for some good software development practices such as test-driven development.  
-    `template.package` includes:  
-    * Fully configured test-suite, including code-coverage;   
-    * Fully configured continuous-integration (CI) script for Travis; and  
-    * Fully configured continuous-development (CD) script for Travis.
+Description: `tidy.preparation` provides R6 classes for implementing a 
+    unidirectional data pipeline that starts with any data source whether it’s 
+    on a remote server or local disk. At the output of the instantiated pipeline 
+    are amendable data, ready for consumption by multiple predictive analytics 
+    applications such as analytical models and reports.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
