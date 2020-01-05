@@ -20,5 +20,11 @@
 
 # Last --------------------------------------------------------------------
 .Last <- function(){
-    return(invisible())
+    arrange_DESCRIPTION_requirements_alphabetically <- function(){
+        deps <- desc::description$new()$get_deps() %>% dplyr::arrange(type, package)
+        desc::description$new()$del_deps()$set_deps(deps)$write()
+    }
+
+    try(arrange_DESCRIPTION_requirements_alphabetically(), silent = TRUE)
 }
+
