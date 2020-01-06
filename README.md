@@ -11,7 +11,7 @@ status](https://travis-ci.org/tidylab/tidy.preparation.svg?branch=master)](https
 status](https://codecov.io/gh/tidylab/tidy.preparation/branch/master/graph/badge.svg)](https://codecov.io/github/tidylab/tidy.preparation/?branch=master)
 <!-- badges: end -->
 
-## Implement a Data Pipeline that Ingests, Prepares, Stores and Crafts Features
+## Ingest, Prepare, Store and Craft Features through a Data Pipeline
 
 <img src="https://i.imgur.com/RLEQkhe.png" width="75%" style="display: block; margin: auto;" />
 

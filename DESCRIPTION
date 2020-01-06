@@ -1,6 +1,6 @@
 Package: tidy.preparation
 Type: Package
-Title: Implement a Data Pipeline that Ingests, Prepares, Stores and Crafts Features
+Title: Ingest, Prepare, Store and Craft Features through a Data Pipeline
 URL: https://tidylab.github.io/tidy.preparation/
 BugReports: https://github.com/tidylab/tidy.preparation/issues
 Version: 1.20.01
